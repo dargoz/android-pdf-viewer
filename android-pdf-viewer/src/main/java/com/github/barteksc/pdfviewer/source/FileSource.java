@@ -18,8 +18,8 @@ package com.github.barteksc.pdfviewer.source;
 import android.content.Context;
 import android.os.ParcelFileDescriptor;
 
-import com.shockwave.pdfium.PdfDocument;
-import com.shockwave.pdfium.PdfiumCore;
+import com.dargoz.pdfium.core.PdfDocument;
+import com.dargoz.pdfium.core.PdfiumCore;
 
 import java.io.File;
 import java.io.IOException;

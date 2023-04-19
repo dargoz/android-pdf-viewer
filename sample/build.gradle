@@ -16,7 +16,7 @@ android {
     compileSdkVersion 32
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 32
         versionCode 3
         versionName "3.0.0"

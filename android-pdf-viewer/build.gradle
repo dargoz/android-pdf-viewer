@@ -28,7 +28,7 @@ android {
     compileSdkVersion 31
     namespace = "com.github.dargoz"
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
         versionName "3.0.0"
@@ -50,5 +50,5 @@ publishing {
 
 dependencies {
     implementation 'androidx.core:core:1.6.0'
-    api 'com.github.barteksc:pdfium-android:1.9.0'
+    api fileTree(dir: '.\\libs', include: ['*.aar', '*.jar'], exclude: [])
 }

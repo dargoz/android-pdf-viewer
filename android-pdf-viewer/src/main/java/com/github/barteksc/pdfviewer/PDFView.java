@@ -62,10 +62,10 @@ import com.github.barteksc.pdfviewer.util.FitPolicy;
 import com.github.barteksc.pdfviewer.util.MathUtils;
 import com.github.barteksc.pdfviewer.util.SnapEdge;
 import com.github.barteksc.pdfviewer.util.Util;
-import com.shockwave.pdfium.PdfDocument;
-import com.shockwave.pdfium.PdfiumCore;
-import com.shockwave.pdfium.util.Size;
-import com.shockwave.pdfium.util.SizeF;
+import com.dargoz.pdfium.core.PdfDocument;
+import com.dargoz.pdfium.core.PdfiumCore;
+import com.dargoz.pdfium.core.utils.Size;
+import com.dargoz.pdfium.core.utils.SizeF;
 
 import java.io.File;
 import java.io.InputStream;
